@@ -20,9 +20,6 @@ int main() {
   intLinkedList<int> even;
   intLinkedList<int> odd;
 
-  even.initializeList();
-  odd.initializeList();
-
   list.splitEvensOdds(even,odd);
 
   cout << "Even: ";
